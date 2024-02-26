@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node cluster.js"
+  },
+  "dependencies": {
+    "common-tags": "^1.8.2",
+    "discord-hybrid-sharding": "^2.1.4",
+    "discord.js": "^14.12.1",
+    "ferra-link": "^0.4.9",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.0",
+    "node-fetch": "^2.7.0",
+    "perspective-api-client": "^1.1.0",
+    "shoukaku": "^3.3.1",
+    "star-labs": "^1.1.2"
+  }
+}
