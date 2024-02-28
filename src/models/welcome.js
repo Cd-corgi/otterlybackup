@@ -1,11 +1,14 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
-let wel = new mongoose.Schema({
-    guildID: String,
-    channelID: String,
-    welMessage: String,
-    welImage: String,
-    welTextColor: String
+const schema = new mongoose.Schema({
+    guildId: String,
+    isEnabled: { type: Boolean, default: false },
+    channelId: { type: String, default: "0" },
+    content: {
+        title: { type: String, default: `{member}` },
+        message: { type: String, default: `Welcome {member} to **{guild}**!\nAnd now we are {count} member(s)!` },
+        imageID: String,
+    }
 })
 
-module.exports = new mongoose.model("welcomes", wel, "Welcomes");
+module.exports = mongoose.model("Welcome-System", schema)

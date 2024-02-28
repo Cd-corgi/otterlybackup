@@ -76,7 +76,6 @@ module.exports = async (client, interaction) => {
                 }
             }
         }
-        
         try {
             await slashCmd.run(client, interaction)
         } catch (error) {

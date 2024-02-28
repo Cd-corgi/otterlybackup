@@ -3,6 +3,7 @@
     "start": "node cluster.js"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.50",
     "common-tags": "^1.8.2",
     "discord-hybrid-sharding": "^2.1.4",
     "discord.js": "^14.12.1",

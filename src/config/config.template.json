@@ -1,0 +1,37 @@
+{
+    "token": "",
+    "ID": "",
+    "mongo": "",
+    "ownerID": "",
+    "nodes": [
+        {
+            "name": "",
+            "url": "",
+            "auth": "",
+            "secure": false
+        }
+    ],
+    "guildBank": {
+        "guild": "",
+        "channel": ""
+    },
+    "TOKENS": {
+        "API": "",
+        "colors": {
+            "success": "",
+            "danger": "",
+            "warning": ""
+        },
+        "spotifyPlugin": {
+            "clientID": "",
+            "secretClient": ""
+        },
+        "shoukakuOptions": {
+            "moveOnDisconnect": false,
+            "resumable": false,
+            "resumableTimeout": 0,
+            "reconnectTries": 0,
+            "restTimeout": 0
+        }
+    }
+}
